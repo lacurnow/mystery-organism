@@ -82,8 +82,8 @@ const batchOfOrganisms = n => {
     const newOrganism = pAequorFactor(i, mockUpStrand());
     if (newOrganism.willLikelySurvive()) {
       organismsArr.push(newOrganism);
-    }
-  }
+    };
+  };
   return organismsArr;
 };
 
